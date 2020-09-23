@@ -9,6 +9,7 @@
   "author": "Atanas Stanilov <atanasstanilov@gmail.com> (https://astanilov.com)",
   "license": "MIT",
   "dependencies": {
+    "css": "^3.0.0",
     "htmlparser2": "^4.1.0"
   }
 }
