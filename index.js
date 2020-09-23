@@ -15,17 +15,10 @@ fs.readFile('data.html', 'utf8', (err, data) => {
     const dom2 = hs.process(data)
     console.log('Reading done!')
     console.log('Writing parsed HTML to file...')
-    fs.writeFile('data_processed.json', util.inspect(dom2), (err) => {
+    console.log(dom2.getCssProcessedElements())
+    fs.writeFile('data_processed.json', dom2.getHtmlString(), (err) => {
         if (err) console.log('Write file error: ', err)
 
         console.log('Writing to file done!')
     })
   });
-
-
-// console.log('Writing parsed HTML to file...')
-// fs.writeFile('data_processed.json', util.inspect(dom), (err) => {
-//     if (err) console.log('Write file error: ', err)
-
-//     console.log('Writing to file done!')
-// })
