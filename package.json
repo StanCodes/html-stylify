@@ -1,0 +1,14 @@
+{
+  "name": "html-stylify",
+  "version": "1.0.0",
+  "description": "Transform HTML document with styles to single element with styles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atanas Stanilov <atanasstanilov@gmail.com> (https://astanilov.com)",
+  "license": "MIT",
+  "dependencies": {
+    "htmlparser2": "^4.1.0"
+  }
+}
