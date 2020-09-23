@@ -5,3 +5,6 @@
 package-lock.json
 data.html
 data_processed.json
+data_processed.js
+data_processed.html
+test.js
