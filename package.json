@@ -1,7 +1,7 @@
 {
   "name": "html-stylify",
   "version": "1.0.0",
-  "description": "Transform HTML document with styles to single element with styles",
+  "description": "It interprets the style tag and changes all HTML tag selectors to classes. It adds the created classes to the corresponding html elements. An optional functionality is to normalize the HTML document.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
