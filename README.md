@@ -8,7 +8,7 @@ A simple library for working with HTML represented as `string`. Based on [css-pa
 ## Using
 
 ```js
-const HtmlStylify = require('./lib/html-stylify')
+const HtmlStylify = require('html-stylify')
 const hs = new HtmlStylify()
 const dom = hs.process(htmlAsString)
 ```
@@ -32,7 +32,7 @@ Returns an `[Object]` containing `html` prop which has the HTML document represe
 ```js
 const fs = require('fs')
 const util = require('util')
-const HtmlStylify = require('./lib/html-stylify')
+const HtmlStylify = require('html-stylify')
 
 const hs = new HtmlStylify()
 
