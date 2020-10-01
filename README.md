@@ -1,6 +1,6 @@
 # html-stylify
 
-A simple library for working with HTML represented as `string`. Based on [css-parse](https://www.npmjs.com/package/css) and [htmlparser2](https://www.npmjs.com/package/htmlparser2). It interprets the style tag and changes all HTML tag selectors to classes. It adds the created classes to the corresponding html elements. An optional functionality is to normalize the HTML document, changing `<html>`, `<body>`, `<head>` to simpler html tag elements like `<div>` or `<span>` and removing `<title>`, `<meta>`, `<script>` tags.
+A simple library for working with HTML represented as `string` like in e-mail message bodies. Based on [css-parse](https://www.npmjs.com/package/css) and [htmlparser2](https://www.npmjs.com/package/htmlparser2). It interprets the style tag and changes all HTML tag selectors in it to class selectors. The created classes are later added to the corresponding html elements. An optional functionality is to normalize the HTML document, changing `<html>`, `<body>`, `<head>` to simpler html tag elements like `<div>` or `<span>` and removing `<title>`, `<meta>`, `<script>` tags.
 
 ## Installing
 `$ npm install html-stylify`
